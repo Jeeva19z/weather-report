@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<!-- <style></style -->
+<body>
+
+    <div class="container">
+    <div class="card">
+
+
+        <div class="inpur_and_search">
+            <input type="text" id="coutry"  autocomplete="off"  placeholder="Enter The City Name" tabindex="1">
+           <!-- <img src="./images/search.png" alt="search" id="search" tabindex="2"> -->
+            <button id="search">Check</button>
+            
+        </div>
+        <span class="errorplace"></span>
+
+        <!-- <div id="weather_report">-->
+        <div class="weather-result">
+            <img src="./images/search.png" alt="result-weather-img"  id="weather_img">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+        </div>
+
+        <div class="humidity-wind">
+
+            <div class="humidity">
+
+
+            <img src="./images/humidity.png" alt="huminity">
+            <h3>humidity</h3>
+            <h2 class="humidity_level"></h2>
+
+        </div>
+
+        <div class="wind">
+
+
+            <img src="./images/wind.png" alt="wind">
+            <h3>Wind Speed</h3>
+            
+            <h2 class="windspeed"></h2>
+
+        </div>
+    </div>
+
+
+
+
+</div>
+    </div>
+<!-- </div> -->
+
+<script src="index.js"></script>
+    
+
+</body>
+</html>
